@@ -6,8 +6,8 @@ name: New config
 on:
   pull_request:
     paths:
-    - '!**'
     - 'config/*.json'
+    - '!**'
     types:
       - opened
       - edited
