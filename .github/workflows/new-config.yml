@@ -7,7 +7,7 @@ on:
   pull_request:
     paths:
     - 'config/*.json'
-    - '!**'
+    - '!*.go'
     types:
       - opened
       - edited
